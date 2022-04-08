@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/nevTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Név" />
+
+    <EditText
+        android:id="@+id/orszagTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ország" />
+
+    <EditText
+        android:id="@+id/lakossagTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lakosság" />
+
+    <Button
+        android:id="@+id/felvetelGomb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Felvétel" />
+
+    <Button
+        android:id="@+id/visszaGomb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vissza" />
+
+</LinearLayout>
