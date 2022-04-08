@@ -47,6 +47,7 @@ public class Varosok {
 
     @Override
     public String toString() {
+
         return "Varosok: " +
                 "nev= '" + nev + '\'' +
                 ", orszag: '" + orszag + '\'' +
