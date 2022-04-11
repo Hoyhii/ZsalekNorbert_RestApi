@@ -1,12 +1,12 @@
 package com.example.zsaleknorbert_restapi;
 
-public class Varosok {
+public class Varos {
     private int id;
     private String nev;
     private String orszag;
     private int lakossag;
 
-    public Varosok(int id, String nev, String orszag, int lakossag) {
+    public Varos(int id, String nev, String orszag, int lakossag) {
         this.id = id;
         this.nev = nev;
         this.orszag = orszag;
@@ -48,9 +48,7 @@ public class Varosok {
     @Override
     public String toString() {
 
-        return "Varosok: " +
-                "nev= '" + nev + '\'' +
-                ", orszag: '" + orszag + '\'' +
-                ", lakossag: " + lakossag;
+        return String.format(
+                "%s, %s, %d",nev, orszag, lakossag);
     }
 }
